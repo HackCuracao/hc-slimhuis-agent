@@ -1,6 +1,6 @@
-"""HackCuraçao Slim huis agent.
+﻿"""HackCuraÃ§ao Slim huis agent.
 
-Stuurt elke 5 minuten een kleine statusmelding (alleen getallen) naar HackCuraçao.
+Stuurt elke 5 minuten een kleine statusmelding (alleen getallen) naar HackCuraÃ§ao.
 Er staan GEEN open poorten op deze box; de verbinding gaat alleen naar buiten.
 Entiteitsnamen, waarden, beelden of adressen worden NOOIT verstuurd: de statussen worden
 in het geheugen geteld en daarna weggegooid. Zie ook SECURITY.md.
@@ -11,7 +11,7 @@ import time
 import urllib.request
 from datetime import datetime, timezone
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 SUP = "http://supervisor"
 TOKEN = os.environ.get("SUPERVISOR_TOKEN", "")
 URL = os.environ.get("HC_URL", "")
