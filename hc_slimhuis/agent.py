@@ -11,7 +11,7 @@ import time
 import urllib.request
 from datetime import datetime, timezone
 
-VERSION = "0.1.1"
+VERSION = "0.1.2"
 SUP = "http://supervisor"
 TOKEN = os.environ.get("SUPERVISOR_TOKEN", "")
 URL = os.environ.get("HC_URL", "")

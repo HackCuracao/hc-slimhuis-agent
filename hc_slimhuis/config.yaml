@@ -1,11 +1,12 @@
 name: "HackCuraÃ§ao Slim huis"
-version: "0.1.1"
+version: "0.1.2"
 slug: hc_slimhuis
 description: "Stuurt elke 5 minuten een kleine statusmelding naar HackCuraÃ§ao, zodat wij weten of uw systeem gezond is. Nooit uw gegevens of beelden."
 url: "https://www.hackcuracao.com/slim-huis"
 arch: [aarch64, amd64, armv7]
 startup: application
 boot: auto
+init: false
 hassio_api: true
 homeassistant_api: true
 hassio_role: backup
