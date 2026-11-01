@@ -1,4 +1,4 @@
-﻿"""HackCuraÃ§ao Slim huis agent.
+"""HackCuraÃ§ao Slim huis agent.
 
 Stuurt elke 5 minuten een kleine statusmelding (alleen getallen) naar HackCuraÃ§ao.
 Er staan GEEN open poorten op deze box; de verbinding gaat alleen naar buiten.

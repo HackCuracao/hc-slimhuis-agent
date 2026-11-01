@@ -1,4 +1,4 @@
-﻿name: "HackCuraÃ§ao Slim huis"
+name: "HackCuraÃ§ao Slim huis"
 version: "0.1.1"
 slug: hc_slimhuis
 description: "Stuurt elke 5 minuten een kleine statusmelding naar HackCuraÃ§ao, zodat wij weten of uw systeem gezond is. Nooit uw gegevens of beelden."
